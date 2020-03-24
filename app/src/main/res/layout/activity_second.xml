@@ -7,7 +7,7 @@
     tools:context=".SecondActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayout1_second"
+        android:id="@+id/linL1_Second"
         android:layout_width="363dp"
         android:layout_height="70dp"
         android:layout_marginStart="25dp"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/TV2_second"
+            android:id="@+id/textV1_Second"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -30,7 +30,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/ET1_second"
+            android:id="@+id/editT1_Second"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -39,7 +39,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout2_second"
+        android:id="@+id/linL2_Second"
         android:layout_width="363dp"
         android:layout_height="70dp"
         android:layout_marginStart="25dp"
@@ -51,10 +51,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout1_second">
+        app:layout_constraintTop_toBottomOf="@+id/linL1_Second">
 
         <TextView
-            android:id="@+id/TV3_second"
+            android:id="@+id/textV2_Second"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -62,7 +62,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/ET2_second"
+            android:id="@+id/editT2_Second"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -71,7 +71,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/TV4_second"
+        android:id="@+id/textV3_Second"
         android:layout_width="196dp"
         android:layout_height="43dp"
         android:layout_marginStart="80dp"
@@ -82,10 +82,10 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2_second" />
+        app:layout_constraintTop_toBottomOf="@+id/linL2_Second" />
 
     <Button
-        android:id="@+id/button2_second"
+        android:id="@+id/btnSub_Second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="45dp"
@@ -96,11 +96,11 @@
         android:text="-"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button1_second"
-        app:layout_constraintTop_toBottomOf="@+id/TV4_second" />
+        app:layout_constraintStart_toEndOf="@+id/btnAdd_Second"
+        app:layout_constraintTop_toBottomOf="@+id/textV3_Second" />
 
     <Button
-        android:id="@+id/button1_second"
+        android:id="@+id/btnAdd_Second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -109,10 +109,10 @@
         android:text="+"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TV4_second" />
+        app:layout_constraintTop_toBottomOf="@+id/textV3_Second" />
 
     <Button
-        android:id="@+id/button4_second"
+        android:id="@+id/btnDiv_Second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="45dp"
@@ -123,11 +123,11 @@
         android:text="/"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button3_second"
-        app:layout_constraintTop_toBottomOf="@+id/button2_second" />
+        app:layout_constraintStart_toEndOf="@+id/btnMul_Second"
+        app:layout_constraintTop_toBottomOf="@+id/btnSub_Second" />
 
     <Button
-        android:id="@+id/button3_second"
+        android:id="@+id/btnMul_Second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -136,6 +136,6 @@
         android:text="*"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1_second" />
+        app:layout_constraintTop_toBottomOf="@+id/btnAdd_Second" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

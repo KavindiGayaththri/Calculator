@@ -3,15 +3,11 @@ package com.example.intentsproj;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.nfc.Tag;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import javax.security.auth.login.LoginException;
 
 public class SecondActivity extends AppCompatActivity {
 
@@ -27,13 +23,13 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        num1 = findViewById(R.id.ET1_second);
-        num2 = findViewById(R.id.ET2_second);
-        ans = findViewById(R.id.TV4_second);
-        add = findViewById(R.id.button1_second);
-        sub = findViewById(R.id.button2_second);
-        mul = findViewById(R.id.button3_second);
-        div = findViewById(R.id.button4_second);
+        num1 = findViewById(R.id.editT1_Second);
+        num2 = findViewById(R.id.editT1_Second);
+        ans = findViewById(R.id.textV3_Second);
+        add = findViewById(R.id.btnAdd_Second);
+        sub = findViewById(R.id.btnSub_Second);
+        mul = findViewById(R.id.btnMul_Second);
+        div = findViewById(R.id.btnDiv_Second);
 
         Intent receivedVal = getIntent();
 

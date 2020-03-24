@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 public class FirstActivity extends AppCompatActivity {
 
@@ -19,10 +18,10 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
 
-        number1 = findViewById(R.id.ET1_first);
-        number2 = findViewById(R.id.ET2_first);
+        number1 = findViewById(R.id.editT1_First);
+        number2 = findViewById(R.id.editT2_First);
 
-        ok = findViewById(R.id.button1_first);
+        ok = findViewById(R.id.btnOK_First);
 
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
