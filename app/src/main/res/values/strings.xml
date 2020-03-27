@@ -5,4 +5,5 @@
     <string name="num2">Number 2</string>
     <string name="ok">OK</string>
     <string name="topic">My Application</string>
+    <string name="mainBtn">Click</string>
 </resources>
